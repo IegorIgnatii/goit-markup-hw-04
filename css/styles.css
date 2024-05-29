@@ -83,9 +83,7 @@ padding-bottom: 120px;
 }
 
 .navig {
-    flex-grow: 1;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -136,12 +134,13 @@ padding-bottom: 120px;
     gap: 40px;
 }
 
-.header-address {}
+.header-address {
+    margin-left: auto;
+}
 
 .address-list {
     display: flex;
     gap: 40px;
-    margin-left: 332px;
 }
 
 
@@ -163,19 +162,12 @@ padding-bottom: 120px;
 
 /* #region hero */
 
-.hero .container{
+.hero {
     background-color: #2e2f42;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-        url(/images/hero/people-office.jpg);
     padding: 188px 0;
-}   
-
-.div-hero {
-    padding-top: 68px;
-    padding-bottom: 68px;
 }
+
+.div-hero {}
 
 .hero-title {
     font-weight: 700;
@@ -185,7 +177,7 @@ padding-bottom: 120px;
     text-align: center;
     color: #fff;
 
-    padding-bottom: 47px;
+    margin-bottom: 47px;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
@@ -277,8 +269,7 @@ padding-bottom: 120px;
 }
 
 .team-item {
-    background-color: #FFFFFF
-    weigth: calc((100% - 72px) / 4);
+    background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -294,7 +285,6 @@ padding-bottom: 120px;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -353,7 +343,6 @@ padding-bottom: 120px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px
 }
 
@@ -396,7 +385,6 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    padding-top: 16px;
 }
 
 /* #endregion footer */
