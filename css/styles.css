@@ -392,10 +392,14 @@ padding-bottom: 120px;
     background-color: #404bbf;
 }
 
-.team-icon{
-    fill: #f4f4fd;
+.team-link svg {
     width: 16px;
     height: 16px;
+}
+
+.team-icon{
+    fill: #f4f4fd;
+    
 }
 
 /* #endregion section2 */
