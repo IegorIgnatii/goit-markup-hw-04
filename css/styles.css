@@ -117,6 +117,8 @@ padding-bottom: 120px;
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+
+
 }
 
 .nav-link:hover,
@@ -125,6 +127,7 @@ padding-bottom: 120px;
 .adress-link:focus {
     color: #404bbf;
 }
+
 
 
 .nav-item {}
@@ -232,7 +235,14 @@ padding-bottom: 120px;
     width: calc((100% - 72px) / 4);
 }
 
-.div-icon{}
+.div-icon{
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .advantage-subtitle {
     font-weight: 500;
@@ -317,21 +327,33 @@ padding-bottom: 120px;
 .team-socials {
     display: flex;
     align-content: flex-start;
-    gap: 24px;
+    gap: 48px;
     margin-left: 16px;
     margin-right: 16px;
 }
 
 .team-social {
-    width: 40px;
-    height: 40px;
+    width: 16px;
+    height: 16px;
 }
+   
 
 .team-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    padding-left: 12px;
+    padding-right: 12px;
+    
   
 }
 
 .team-icon {
+    fill: #f4f4fd;
 
 }
 
@@ -404,6 +426,7 @@ padding-bottom: 120px;
 
 .footer > .container{
     display: flex;
+    gap: 120px;
 }
 
 .footer-link {
@@ -438,16 +461,35 @@ padding-bottom: 120px;
     color: #fff;
 
     font-family: "Roboto", sans-serif;
+
+    margin-bottom: 16px;
 }
 
 .social-footer-list {
+   
     display: flex;
+    align-content: flex-start;
+    gap: 24px;
 }
 
 .social-footer-item {}
 
-.social-footer-link {}
+.social-footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    padding-left: 12px;
+    padding-right: 12px;
+}
 
-.footer-icon {}
+.footer-icon {
+    width: 16px;
+    height: 16px;
+    fill: #f4f4fd;
+}
 
 /* #endregion footer */
