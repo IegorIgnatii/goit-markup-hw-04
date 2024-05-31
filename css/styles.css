@@ -426,6 +426,8 @@ padding-bottom: 120px;
 .portfolio-div {
     border: 1px solid #e7e9fc;
     border-top: none;
+    height: 100%;
+    width: 100%;
 
     position: relative;
     overflow: hidden;
@@ -559,7 +561,9 @@ padding-bottom: 120px;
 }
 
 
-.social-footer-link:hover,
+.social-footer-link:hover {
+    background-color: #31d0aa;
+}
 .social-footer-link:focus {
     background-color: #31d0aa;
 }
