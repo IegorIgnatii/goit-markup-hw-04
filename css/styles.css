@@ -403,7 +403,7 @@ padding-bottom: 120px;
 
 /* #region section3 */
 
-/* #endregion section3 */
+
 
 .portfolio {}
 
@@ -550,7 +550,6 @@ padding-bottom: 120px;
 .social-footer-list {
    
     display: flex;
-    align-content: flex-start;
     gap: 16px;
 }
 
@@ -581,8 +580,6 @@ padding-bottom: 120px;
     height: 24px;
     fill: #f4f4fd;
 }
-
-
 
 .text-footer {
     width: 100%;
